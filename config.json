@@ -1,0 +1,23 @@
+{
+    "invite_code": "85862904",
+    "email_extraction": {
+        "card_number": "EM7SZXXJOK4P8FGA3NASATU85669U8C7BX4MTQFZLDQNXYJ6",
+        "extraction_count": 1,
+        "email_type": "outlook"
+    },
+    "email_verification": {
+        "folders": ["INBOX", "Junk Email", "Spam", "Bulk Mail"],
+        "retry_count": 3,
+        "retry_interval": 15,
+        "max_registration_retries": 3,
+        "abandon_after_retries": true
+    },
+    "registration": {
+        "batch_size": 1,
+        "use_proxy": false,
+        "proxy_url": "http://127.0.0.1:7890"
+    },
+    "database": {
+        "connection_string": "postgresql://postgres.ugbknpyamineuaakwvej:wuchunyu123@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
+    }
+} 

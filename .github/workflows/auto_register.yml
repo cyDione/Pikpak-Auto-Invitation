@@ -1,0 +1,59 @@
+name: PikPak Auto Register
+
+on:
+  schedule:
+    # 每天凌晨2点运行（UTC时间为当天的18:00）
+    - cron: '0 18 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  auto-register:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+      
+      - name: Create config.json
+        run: |
+          cat > config.json << EOF
+          {
+              "invite_code": "${{ secrets.PIKPAK_INVITE_CODE }}",
+              "email_extraction": {
+                  "card_number": "${{ secrets.PIKPAK_CARD_NUMBER }}",
+                  "extraction_count": 1,
+                  "email_type": "outlook"
+              },
+              "email_verification": {
+                  "folders": ["INBOX", "Junk Email", "Spam", "Bulk Mail"],
+                  "retry_count": 3,
+                  "retry_interval": 15,
+                  "max_registration_retries": 3,
+                  "abandon_after_retries": true
+              },
+              "registration": {
+                  "batch_size": 1,
+                  "use_proxy": false,
+                  "proxy_url": "http://127.0.0.1:7890"
+              },
+              "database": {
+                  "connection_string": "${{ secrets.DB_CONNECTION_STRING }}"
+              }
+          }
+          EOF
+      
+      - name: Run auto register script
+        run: python auto_register.py 

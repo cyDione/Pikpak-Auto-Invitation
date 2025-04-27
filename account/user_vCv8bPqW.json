@@ -1,0 +1,53 @@
+{
+  "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjcxZjIxZmEyLTZiNWQtNGMzOC1hZTU0LTMwMjI5MmZiOTNiOCJ9.eyJpc3MiOiJodHRwczovL3VzZXIubXlwaWtwYWsuY29tIiwic3ViIjoiYUEzVXl0ZDRvWExhSlNYbSIsImF1ZCI6IllOeFQ5dzdHTWRXdkVPS2EiLCJleHAiOjE3NDU3NDQxMDYsImlhdCI6MTc0NTczNjkwNiwiYXRfaGFzaCI6InIuallONW1DTTBFZkN2eklvLTZjRkVEUSIsInNjb3BlIjoidXNlciBwYW4gc3luYyBvZmZsaW5lIiwicHJvamVjdF9pZCI6IjJ3a3M1NmMzMWRjODBzeG01cDkiLCJtZXRhIjp7ImEiOiJGbzhCeDd0akNtMUl1eEd0UjhFOFNibjZseGVpTlNmTmgwVVo1bDNKYTVjPSJ9fQ.xgnnFH8ph5dTZzhdUrDVqzTAidBo4ysk8TZxYafmAoKKWY3YNmT91bDq2ixYx8I08I6pFMHpf4FO9LzW488hckGBYPVb_vbDcJs2_ZZY_l_jpXkw3WNfmtcgvLxE6ac5QpsqvrufkGkHwd4HU3ibQ0HF_NYH30tdIpKYQa4_tVsTFT85-yov67Cy9IdpR-TFR0xJF9Su0bs1oO9ir4L1P0wBS4Zy7yhnS6L4X2QPaFM-HbSR3eIDRT8UG2BS6340DnghJgh28Oea6LgQBtFw67X7AJwqwpngNT093kIjT4RRkNmMq-5xQfgJl3RKM8C-S6Jq0FGcPCPyqMFlikOKEw",
+  "refresh_token": "os.VEYo5iZOuGgN1MoGwaepDHMEsKKy9w9-t5V-0QRM1RSOXwnxDF3yqQw8Cw6c",
+  "user_id": "aA3Uytd4oXLaJSXm",
+  "captcha_token": "ck0.r6bwp0sIf5F7Suj60vImCTdIrzceB1V5IKLOFgeZZ5RlyVHTePa-RTCz8K64cV3XpNCtu87NlonrnO_HsFqr6UtFU0LQkYQbLli8OYWcbkOuBXcelweepvl2_fjhpgi_CPwdizFJxMSn91i8oT_0nfj74hQrFk73WermFn3wpVha1ZVmtA5YDmD-uRI30v-zE7azIkcW7letUxgEs0uM4FUT7Bc-ZWf_AMlSIulBaW97-Q-HQjBlrJyyO9A2h93QrRidcYhAT7K8RsY4dshWma5coecDxvUBH8qJro7C4JmHhYKX6o-mDedpSSgxSDovqfOxKPZPfru-tLEyAVFsvCMfyO7XbxuVJe7Ty1Dwft5triTOFUw-W3oVM8r4o2ZX8bbjcTUsjtHASXbWrsIFb5JStwOyYC2ki_govqij8_WdbfRpemfpr4jrdVhDEjYOQWNFozf55AIXP7pGrUwCTQYa7rlErN_VtAVZefCPXJwR2ozlVk_EZj5ZGsXV5JrkW_kfjpmsw9YIYjJvzw6Nqg.ClgIhuicsOcyEhBZTnhUOXc3R01kV3ZFT0thGgYxLjQyLjYiE2NvbS5waWtjbG91ZC5waWtwYWsqIGI3ZjE0Y2QwMDkzMDQ5ZTBiYjI0ZjhmNTExZDE5NGQzEoABBSfdKg461U2coGtyDtWOjLRx9fxHX24CDuCjiuWAiHkfPQBaNFA10MBZI_YE_3I1Vq4e-Smi0ynVjU30z8sRPqkG5yVSfhubjuUzE3iHNhuDUdPbPobFuZa67cPnrXVl-MF7wiBkq2IEqq8y01vQlNVXYXyOnBm9KvIx6cCSdks",
+  "device_id": "b7f14cd0093049e0bb24f8f511d194d3",
+  "email": "hpwwjabjn244@outlook.com",
+  "name": "user_vCv8bPqW",
+  "password": "63OGiPs5QZbA",
+  "timestamp": "1745736906713",
+  "version": "1.42.6",
+  "activation_result": {
+    "add_days": 0,
+    "code": "",
+    "data": {
+      "expire": "",
+      "status": "invalid",
+      "type": "novip",
+      "user_id": "aA3Uytd4oXLaJSXm"
+    },
+    "free_days": 0,
+    "invited_days": 0,
+    "popup": {
+      "id": "p20230927001",
+      "type": "invite_code",
+      "region": "regional",
+      "right": "",
+      "title": {
+        "text": "Premium invitation code confirmed successfully",
+        "color": "#000000"
+      },
+      "description": {
+        "text": "You can invite your friends to get rewards.",
+        "color": "#98A2AD"
+      },
+      "image": "",
+      "button": {
+        "text": {
+          "text": "Got it",
+          "color": "#FFFFFF"
+        },
+        "color": "#D1AE6A",
+        "deepLink": "pikpakapp://mypikpak.com/xpan/main_tab?tab=3"
+      },
+      "secondaryButton": null,
+      "icon": null
+    },
+    "result": "ACCEPTED",
+    "updated": true
+  },
+  "invite_code": "85862904",
+  "register_time": "2025-04-27 14:55:08"
+}

@@ -670,5 +670,5 @@ def extract_emails():
 
 
 if __name__ == "__main__":
-    webbrowser.open('http://localhost:5000/')
-    app.run(debug=False, host="0.0.0.0", port=5000)
+    webbrowser.open('http://localhost:2314/')
+    app.run(debug=False, host="0.0.0.0", port=2314)
