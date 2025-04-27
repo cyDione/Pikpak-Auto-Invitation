@@ -1,7 +1,7 @@
 {
-    "invite_code": "85862904",
+    "invite_code": "xxx",
     "email_extraction": {
-        "card_number": "EM7SZXXJOK4P8FGA3NASATU85669U8C7BX4MTQFZLDQNXYJ6",
+        "card_number": "xxx",
         "extraction_count": 1,
         "email_type": "outlook"
     },
@@ -18,6 +18,6 @@
         "proxy_url": "http://127.0.0.1:7890"
     },
     "database": {
-        "connection_string": "postgresql://postgres.ugbknpyamineuaakwvej:wuchunyu123@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
+        "connection_string": "xxx"
     }
 } 
