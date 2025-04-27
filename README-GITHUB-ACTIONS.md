@@ -22,6 +22,8 @@
 | Secret 名称 | 描述 |
 |------------|------|
 | `ACTIVATION_BACKUP_KEY` | PikPak 激活备用密钥（当自动获取密钥失败时使用） |
+| `USE_PROXY` | 是否使用代理，设置为 `true` 或 `false` |
+| `PROXY_URL` | 代理服务器地址，例如 `http://proxy.example.com:8080` |
 
 ## Workflow 运行计划
 
@@ -51,4 +53,5 @@
 
 - 首次运行前，请确保所有必要的 Secrets 都已设置
 - 如果您修改了脚本或配置文件，workflow 会使用最新的代码运行
-- 数据库需要能从 GitHub Actions 的运行环境访问，请确保您的数据库允许远程连接 
+- 数据库需要能从 GitHub Actions 的运行环境访问，请确保您的数据库允许远程连接
+- 如果需要使用代理，设置 `USE_PROXY` 为 `true` 并配置 `PROXY_URL`，否则可以不设置这两个变量 

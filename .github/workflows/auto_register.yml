@@ -46,8 +46,8 @@ jobs:
               },
               "registration": {
                   "batch_size": 1,
-                  "use_proxy": false,
-                  "proxy_url": "http://127.0.0.1:7890"
+                  "use_proxy": ${{ secrets.USE_PROXY || 'false' }},
+                  "proxy_url": "${{ secrets.PROXY_URL || 'http://127.0.0.1:7890' }}"
               },
               "database": {
                   "connection_string": "${{ secrets.DB_CONNECTION_STRING }}"
